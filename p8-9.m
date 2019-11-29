@@ -55,6 +55,13 @@ betas = Apseudo*Y;
 
 b = A\Y;
 
-fitlm(A, Y)
+ml = fitlm(A, Y);
+
+figure('Name','Modelo Lineal')
+plot(ml)
+title('Modelo Lineal')
+
+pause;
+close all;
 
 %--------------------------------------------------------------------------

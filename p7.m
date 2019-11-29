@@ -33,6 +33,8 @@ x = Apseudo*b;
 scatter(x(1),x(2), 'k+', 'LineWidth', 3)
 
 hold off
+
+fprintf("Programa pausado, presiona cualquier tecla para continuar.\n");
 pause;
 close all;
 
